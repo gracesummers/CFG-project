@@ -1,0 +1,217 @@
+/* colour palette:
+color:#d5f5e3; = mint
+color:#2874a6; = dark blue
+color:#aed6f1; = light blue
+color:#f1948a; = pink
+color:#f1948aa6; = dark pink (hover)
+color:#fcf3cf; = sand
+color:#117a65; = dark green */
+
+/*
+#fcf3cf = sand
+#fffd98 = yellow
+#bde4a7 = light green (no)
+#355e1d = dark green
+#b3d2b2 = sage
+#9fbbcc = light blue
+#7a9cc6 = dark blue (no)
+#253b56 = dark blue 2
+#ffffffe3  = off white
+#000000 = black
+
+*/
+
+  
+     body {
+        background-color: #fcf3cf 
+      }
+      
+      /* Font */
+      body {
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <500>;
+        font-style: normal; }
+      
+    /* Banner */
+    
+    
+      .banner {
+      background-color: #355e1d;
+      padding: 1px 1px;
+      display: flex;
+      align-items: center; 
+      }
+    
+    .banner h1 {
+        color: #ffffffe3; text-align: center; font-size: 350%
+        position: relative; /* Relative positioning */
+        top: 0; /* Position at the top */
+        left: 0; /* Position at the left */
+        width: 100%; /* Full width */
+        padding: 10px 20px; /* Padding for banner */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000; /* Ensure it stays above other content */
+    }
+      
+    /* Banner buttons */
+    
+      .banner-button-1 {
+        display: inline-block;
+          padding: 10px 20px;
+          background-color:  #b3d2b2; /*  button */
+          color: #355e1d;
+          text-decoration: none;
+          border-radius: 5px;
+          font-size: 1em;
+          margin-top: 1em;
+          margin-left: 1em;
+        }
+         
+      
+      .banner-button-2 {
+        display: inline-block;
+          padding: 10px 20px;
+          background-color:  #b3d2b2; /*  button */
+          color: #355e1d;
+          text-decoration: none;
+          border-radius: 5px;
+          font-size: 1em;
+          margin-top: 1em;
+          margin-left: 1em;  
+      }
+      
+      .banner-button-3 {
+        display: inline-block;
+          padding: 10px 20px;
+          background-color:  #b3d2b2; /*  button */
+          color: #355e1d;
+          text-decoration: none;
+          border-radius: 5px;
+          font-size: 1em;
+          margin-top: 1em;
+          margin-left: 1em;
+      }
+      
+      .banner-button-4 {
+        display: inline-block;
+          padding: 10px 20px;
+          background-color:  #b3d2b2; /*  button */
+          color: #355e1d;
+          text-decoration: none;
+          border-radius: 5px;
+          font-size: 1em;
+          margin-top: 1em;
+          margin-left: 1em;
+      }
+    
+      .banner-button-5 {
+        display: inline-block;
+          padding: 10px 20px;
+          background-color:  #b3d2b2; /*  button */
+          color: #355e1d;
+          text-decoration: none;
+          border-radius: 5px;
+          font-size: 1em;
+          margin-top: 1em;
+          margin-left: 1em;
+      }
+
+      .banner-button-6 {
+        display: inline-block;
+          padding: 10px 20px;
+          background-color:  #b3d2b2; /*  button */
+          color: #355e1d;
+          text-decoration: none;
+          border-radius: 5px;
+          font-size: 1em;
+          margin-top: 1em;
+          margin-left: 1em;
+      }
+      
+    
+    /* Emergency banner */
+    .emergency_banner {
+        position: absolute; /* Absolute positioning */
+        top: 10%; /* Adjust top position as needed */
+        right: 20px; /* Adjust left position as needed */
+        background-color: #f1948a; /* Example background color */
+        width: 300px; /* Adjust width as needed */
+        padding: 10px; /* Padding for overlapping banner */
+        font-size: 1.2em; /* Example font size */
+        font-weight: bold; /* Example font weight */
+        color: #ffffffe3; /* Text color */
+        border-radius: 5px; /* Rounded corners */
+        text-align: center;
+     }
+
+/* logo */
+
+.logo_transparent {
+  width: 200px; height: auto; margin-right: 20px;
+}
+     
+/* Footer */
+
+.footer_banner {
+  background-color: #355e1d;
+  padding: 1px 1px;
+  display: flex;
+  align-items: center; 
+  }
+
+.footer_banner_content {
+    color: #ffffffe3; text-align: center; font-size: 350%
+    position: relative; /* Relative positioning */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    width: 100%; /* Full width */
+    padding: 10px 20px; /* Padding for banner */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.banner_newsletter button:hover {
+    background-color: #b3d2b2;
+}
+
+.main_content {
+  color: #000000;
+}
+
+.main_content h1 {
+  font-style: bold;
+}
+
+.container_whoweare {
+  max-width: 800px;
+  margin-left: 20px;
+}
+
+.container_whatwedo {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.image_container {
+  display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 100%;
+}
+
+.image_container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #b3d2b2;
+}
+
+.image_container figcaption {
+  text-align: center;
+  font-size: 20px;
+}
